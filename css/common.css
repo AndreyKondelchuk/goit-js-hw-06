@@ -24,8 +24,13 @@ button {
 }
 
 .gallery {
-  padding: 15px;
-  margin: 15px;
+  list-style: none;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+}
+
+.img {
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
 }
